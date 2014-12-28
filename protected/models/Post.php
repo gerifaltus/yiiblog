@@ -24,7 +24,7 @@ class Post extends CActiveRecord
 	const STATUS_PUBLISHED=2;
 	const STATUS_ARCHIVED=3;
 
-	private $_oldTags; //new Post.php3
+	private $_oldTags; //new Post.php5
 
 
 	/**
