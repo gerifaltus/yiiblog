@@ -24,7 +24,7 @@ class Post extends CActiveRecord
 	const STATUS_PUBLISHED=2;
 	const STATUS_ARCHIVED=3;
 
-	private $_oldTags
+	private $_oldTags;
 
 
 	/**
@@ -32,7 +32,7 @@ class Post extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return Post the static model class
 	 */
-	public static function model($className=__CLASS__)
+	public static function model( $className=__CLASS__ )
 	{
 		return parent::model($className);
 	}
