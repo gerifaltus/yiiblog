@@ -155,7 +155,7 @@ class PostController extends Controller
 	public function loadModel()
 	{
 		//$model=Post::model()->findByPk($id);
-		if($this->_model === null) //new postController.php2
+		if($this->_model === null) //new postController.php3
 		{
 			if(isset($_GET['id']))
 			{
